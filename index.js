@@ -1,4 +1,3 @@
-
 const fastify = require('fastify')({ logger: true });
 const path = require('path');
 const sqlite3 = require('better-sqlite3');
