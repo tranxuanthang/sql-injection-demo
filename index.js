@@ -83,7 +83,7 @@ fastify.get('/', async (request, reply) => {
 });
 
 // Run the server
-fastify.listen({ port: 3000 }, (err, address) => {
+fastify.listen({ host: '0.0.0.0', port: 3000 }, (err, address) => {
   if (err) throw err;
   console.log(`Server is now running on ${address}`);
 });
